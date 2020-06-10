@@ -11,7 +11,7 @@ tar -xvf openshift-client-linux-4.2.7.tar.gz
 
 You can now move the client into your `$PATH`, for example:
 
-`mv oc /home/$USER/bin` (you may need to create the directory)
+`mv oc -t /home/$USER/bin` (you may need to create the directory)
 
 or you can use the client with a relative path: `./oc`
 
